@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!---->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>phoebe luo</title>
+    <link rel='icon' href='favicon.png' type='image/png' />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/loader.css">
+
+    <script src="js/pace.min.js"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <div id="loader-wrapper">
+        <img id="loader-logo" src="assets/icons/white_phob.svg">
+        <!--<div id="loader"> </div>-->
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+
+    <div id="nav-bar">
+        <img id="logo" src="assets/icons/phob.svg">
+        <nav id="nav">
+            <ul>
+                <li><a class="smoothscroll" href="#intro">home</a></li>
+                <li><a class="smoothscroll" href="#about">about</a></li>
+                <li><a class="smoothscroll" href="#portfolio">portfolio</a></li>
+                <li><a class="smoothscroll" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="intro">
+        <div class="content">
+            <h2>hi, i'm</h2>
+            <div id="phoebe">
+                <p>phoebe luo</p>
+            </div>
+            <div class="rectangle"></div>
+            <p id="tagline"> i like robots, birds, and using exclamation points excessively!!</p>
+        </div>
+        <div>
+
+
+            <div id="bird">
+
+                <!-- <div class="eyes">
+                    <div class="eye">
+                        <div><img class="ball" src="/assets/imgs/pupil.png"></div>
+                    </div>
+
+                    <div class="eye">
+                        <div><img class="ball" src="/assets/imgs/pupil.png"></div>
+                    </div>
+                </div> <img id="torn" src="assets/imgs/chick.svg"> -->
+                <div id="click-area"></div>
+                <img id="graphic" src="assets/imgs/transparent_bird.gif">
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="tape-photo">
+            <div class="photo">
+                <img src="assets/imgs/about_photo.png" /></div>
+        </div>
+        <div class="about-text">
+            <h2>about me!</h2>
+            <p>I am an incoming mechatronics engineering student @ the University of Waterloo!!
+            </p>
+            <br>
+            <p> I am driven by opportunities that allow me to create something exceptional — whether it be robots, apps, websites, or captivating media pieces such as graphics, art, and videos. Whatever it is, I hope to create and positively impact those
+                around me :)</p>
+            <br>
+
+            <p> My strengths are with software, control systems, CAD, media, leadership, and embedded systems!</p>
+
+        </div>
+    </div>
+
+    <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio">
+
+        <div class="row section-intro">
+            <div class="col-twelve">
+
+                <!--<h5>portfolio</h5>-->
+                <h2>portfolio</h2>
+
+                <p class="lead">Here are my projects and initiatives!! Click to learn more about any of these!</p>
+
+            </div>
+        </div>
+        <!-- /section-intro-->
+
+        <div class="row portfolio-content">
+
+            <div class="col-twelve">
+
+                <!-- portfolio-wrapper -->
+                <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="assets/imgs/project/FRC.jpg" alt="First Robotics Competition">
+                            <a href="#modal-01" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">FIRST Robotics Competition</h3>
+                                        <span class="folio-types">
+		     					       	  Java, Control Systems, CAD
+		     					       </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /folio-item -->
+
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="assets/imgs/project/Brailleiant.gif" alt="Braille-iant">
+                            <a href="#modal-02" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Braille-iant</h3>
+                                        <span class="folio-types">
+                                            CAD, C++, 3-D Printing
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /folio-item -->
+
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="assets/imgs/project/giso19.jpg" alt="GiSO">
+                            <a href="#modal-03" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Girls in STEM Olympics (GiSO)</h3>
+                                        <span class="folio-types">
+		     					       	  Marketing, Leadership, Graphic Design
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /folio-item -->
+
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="assets/imgs/project/deca.jpg" alt="DECA">
+                            <a href="#modal-04" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">DECA Chapter Co-President</h3>
+                                        <span class="folio-types">
+		     					       	  Business, Marketing, Leadership
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /folio-item -->
+
+                    <!-- TWO EXTRA GALLERY ITEMS HERE
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+                            <a href="#modal-05" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Lighthouse</h3>
+                                        <span class="folio-types">
+		     					       	  Web Development
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- /folio-item -->
+                    <!-- TWO EXTRA GALLERY ITEMS HERE
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="images/portfolio/salad.jpg" alt="Salad">
+                            <a href="#modal-06" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Salad</h3>
+                                        <span class="folio-types">
+		     					       	  Branding
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- /folio-item -->
+
+
+                    <!-- modal popups - begin
+	            ============================================================= -->
+                    <div id="modal-01" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="assets/imgs/project/modal/frc_modal.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>FIRST Robotics Competition (FRC)</h4>
+                            <p>I have been avidly involved in FRC! I was mostly focused on programming the robot using Java. I created autonomous routines, tuned control systems and PID feedback loops, and worked with computer vision. I also used Autodesk
+                                Inventor CAD software to design the robot the drivetrain for FRC 1241's 2020 robot including the chassis and gear boxes. </p>
+
+                            <div class="categories">Java, Control Systems, CAD</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="https://www.theory6.ca/"> <img id="icon" src="assets/icons/white_link.svg">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div>
+                    <!-- /modal-01 -->
+
+                    <div id="modal-02" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="assets/imgs/project/modal/brailleiant_modal.gif" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Braille-iant</h4>
+                            <p>Braille-iant is the world's cheapest braille printer, costing less than 15$. I used Autodesk Inventor to design the puncher mechanisms as well as handled all 3D printing, slicing all models using Cura and printing on my Ender
+                                5. I used C++ and the Arduino IDE to program the stepper and servo motors, taking serial inputs and converting it into desired movements. Braille-ant won Best Hardware Hack at TOHacks 2021.</p>
+
+                            <div class="categories">CAD, C++, 3-D Printing</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="https://devpost.com/software/braille-iant-8d5atl"> <img id="icon" src="assets/icons/white_devpost.png">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div>
+                    <!-- /modal-02 -->
+
+                    <div id="modal-03" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="assets/imgs/project/modal/giso_modal.jpg" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Girls in STEM Olympics (GiSO)</h4>
+                            <p>GiSO is a 2-day virtual competition and conference for girls to explore their interests and discover opportunities in STEM. As a female in STEM this event was very important to me. I proposed the idea of opening GiSO's 2020
+                                virtual event Canada-wide in light of COVID, and then devised a successful marketing campaign to expand the event's reach nationally. This led to an 103% increase in participants and 510% increase in Instagram followers,
+                                unprecedented in the last 4 years of GiSO.</p>
+
+                            <div class="categories">Marketing, Leadership, Graphic Design</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="https://www.instagram.com/gisolympics/"><img id="icon" src="assets/icons/white_instagram.svg">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div>
+                    <!-- /modal-03 -->
+
+                    <div id="modal-04" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="assets/imgs/project/modal/deca_modal.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>DECA Chapter Co-President</h4>
+                            <p>DECA is an international business competition. As co-president of my chapter, I lauched and taught a training program that led to a 150% increase in provincial qualifiers. I also debuted my schools first mentorship program
+                                for DECA. I also ran our Instagram page. <br> As a DECA competitor, I was top 7 in Ontario and later won 3rd place at the international level of competiton.
+                            </p>
+
+                            <div class="categories">Business, Marketing, Leadership</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="https://www.instagram.com/erindale_deca/"><img id="icon" src="assets/icons/white_instagram.svg">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div>
+                    <!-- /modal-04 -->
+
+                    <!-- extra modal
+                    <div id="modal-05" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Lighthouse</h4>
+                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+                            <div class="categories">Web Development</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="http://www.behance.net">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> -->
+                    <!-- /modal-05 -->
+
+                    <!-- EXTRA MODAL
+                    <div id="modal-06" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/m-salad.jpg" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Salad</h4>
+                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+                            <div class="categories">Branding</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="http://www.behance.net">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> -->
+                    <!-- /modal-06 -->
+
+
+                    <!-- modal popups - end
+	            ============================================================= -->
+
+                </div>
+                <!-- /portfolio-wrapper -->
+
+            </div>
+            <!-- /twelve -->
+
+        </div>
+        <!-- /portfolio-content -->
+
+    </section>
+    <!-- /portfolio -->
+
+    <div id="contact" class="contact">
+        <h2>find me here</h2>
+        <div id="contacts">
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/phoebe-luo/"> <img src="assets/icons/yellow_linkedin.png"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/phoebeeluo"> <img src="assets/icons/yellow_github.png"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://devpost.com/phoebeeluo"> <img src="assets/icons/yellow_devpost.png"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--<h6 id="made"> made by phoebe luo</h6>-->
+    <img id="paperup" src="assets/imgs/paper up.png">
+
+
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/eyes.js"></script>
+
+</body>
+
+</html>
