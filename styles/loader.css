@@ -27,9 +27,14 @@
 }
 
 #loader-logo {
-    position: absolute;
-    left: 0%;
-    top: 40%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22.5%;
+    position: relative;
+    /*
+    left: 40%;
+    top: 40%;*/
     max-height: 20%;
     z-index: 1002;
     animation: spinReturn 3s ease infinite;
