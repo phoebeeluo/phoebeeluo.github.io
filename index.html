@@ -48,6 +48,8 @@
             </div>
             <div class="rectangle"></div>
             <p id="tagline"> i like robots, birds, and using exclamation points excessively!!</p>
+            <br>
+            <a href="assets/Phoebe_Luo_Resume.pdf" target="_blank"><input type="button" class="button" value="my resume" /></a>
         </div>
         <div>
 
@@ -76,7 +78,7 @@
         </div>
         <div class="about-text">
             <h2>about me!</h2>
-            <p>I am an incoming mechatronics engineering student @ the University of Waterloo!!
+            <p>I'm currently studying Mechatronics Engineering @ the University of Waterloo!!
             </p>
             <br>
             <p> I am driven by opportunities that allow me to create something exceptional — whether it be robots, apps, websites, or captivating media pieces such as graphics, art, and videos. Whatever it is, I hope to create and positively impact those
@@ -144,11 +146,43 @@
                         </div>
                     </div>
                     <!-- /folio-item -->
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="assets/imgs/project/robotarmthumbnail.png" alt="Robot Arm">
+                            <a href="#modal-03" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Robot Arm</h3>
+                                        <span class="folio-types">
+		     					       	  Computer Vision, Control Systems, CAD
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /folio-item -->
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="assets/imgs/project/dumplingdynamics.gif" alt="Dumpling Dynamics">
+                            <a href="#modal-04" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Dumpling Dynamics</h3>
+                                        <span class="folio-types">
+		     					       	  C++, CAD, Firmware, Electrical
+		     					      </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
+                    <!-- /folio-item -->
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
                             <img src="assets/imgs/project/giso19.jpg" alt="GiSO">
-                            <a href="#modal-03" class="overlay">
+                            <a href="#modal-05" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
                                         <h3 class="folio-title">Girls in STEM Olympics (GiSO)</h3>
@@ -161,11 +195,10 @@
                         </div>
                     </div>
                     <!-- /folio-item -->
-
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
                             <img src="assets/imgs/project/deca.jpg" alt="DECA">
-                            <a href="#modal-04" class="overlay">
+                            <a href="#modal-06" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
                                         <h3 class="folio-title">DECA Chapter Co-President</h3>
@@ -177,30 +210,15 @@
                             </a>
                         </div>
                     </div>
+
                     <!-- /folio-item -->
 
-                    <!-- TWO EXTRA GALLERY ITEMS HERE
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-                            <a href="#modal-05" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Lighthouse</h3>
-                                        <span class="folio-types">
-		     					       	  Web Development
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> -->
                     <!-- /folio-item -->
-                    <!-- TWO EXTRA GALLERY ITEMS HERE
+                    <!-- extra added project
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
                             <img src="images/portfolio/salad.jpg" alt="Salad">
-                            <a href="#modal-06" class="overlay">
+                            <a href="#modal-07" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
                                         <h3 class="folio-title">Salad</h3>
@@ -264,6 +282,52 @@
                     <div id="modal-03" class="popup-modal slider mfp-hide">
 
                         <div class="media">
+                            <img src="assets/imgs/project/modal/robot_arm_modal.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Robot Arm</h4>
+                            <p>In my free time, I designed a 5 DOF robot arm from scratch using Inventor and independently printed, assembled, and integrated it with electrical and hardware components. I'm currently working on the arm software, using a Raspberry
+                                Pi to control the arm using the GPIO pins and a camera module to implement computer vision functionality.</p>
+
+                            <div class="categories">Computer Vision, Control Systems, CAD</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="https://github.com/phoebeeluo"><img id="icon" src="assets/icons/white_github.png">In Progress</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div>
+
+                    <!-- /modal-03 -->
+                    <div id="modal-04" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="assets/imgs/project/modal/dumplingdynamics_modal.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Dumpling Dynamics</h4>
+                            <p>We automated the dumpling making process with our newest invention, the Dumpling Bot 9000. I used CAD software, 3D-printing, as well as machining skills to create the lazy susan mechanism and the dumpling clamper. A good deal
+                                of C++ as well as electrical skills were needed for this giant project. Dumpling Dynamics was 1 of 17 finalists out of 477 teams at Hack the North, Canada's largest hackathon.
+                            </p>
+
+                            <div class="categories">C++, CAD, Firmware, Electrical</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a target="_blank" href="https://devpost.com/software/dumpling-bot-9000"> <img id="icon" src="assets/icons/white_devpost.png">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div>
+
+                    <!-- /modal-04 -->
+
+                    <div id="modal-05" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
                             <img src="assets/imgs/project/modal/giso_modal.jpg" alt="" />
                         </div>
 
@@ -282,9 +346,9 @@
                         </div>
 
                     </div>
-                    <!-- /modal-03 -->
 
-                    <div id="modal-04" class="popup-modal slider mfp-hide">
+                    <!-- /modal-05 -->
+                    <div id="modal-06" class="popup-modal slider mfp-hide">
 
                         <div class="media">
                             <img src="assets/imgs/project/modal/deca_modal.png" alt="" />
@@ -305,32 +369,11 @@
                         </div>
 
                     </div>
-                    <!-- /modal-04 -->
 
-                    <!-- extra modal
-                    <div id="modal-05" class="popup-modal slider mfp-hide">
+                    <!-- /modal-06 -->
 
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Lighthouse</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                            <div class="categories">Web Development</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a target="_blank" href="http://www.behance.net">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> -->
-                    <!-- /modal-05 -->
-
-                    <!-- EXTRA MODAL
-                    <div id="modal-06" class="popup-modal slider mfp-hide">
+                    <!-- EXTRA MODAL ADDED
+                    <div id="modal-07" class="popup-modal slider mfp-hide">
 
                         <div class="media">
                             <img src="images/portfolio/modals/m-salad.jpg" alt="" />
@@ -349,7 +392,7 @@
                         </div>
 
                     </div> -->
-                    <!-- /modal-06 -->
+                    <!-- /modal-07 -->
 
 
                     <!-- modal popups - end
